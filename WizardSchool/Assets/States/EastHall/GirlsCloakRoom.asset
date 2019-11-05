@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: GirlsCloakRoom
+  m_EditorClassIdentifier: 
+  storyText: 'It feels a bit wierd, but you go into the girl''s cloak room.  You call
+    out "Is someone here?". "Is everything Ok?"
+
+
+    Then you hear a soft voice urge "Sshh! They''ll find us and hurt us".
+
+
+    "Who will?", you ask
+
+
+    "Ms. Dixon and that Warlock she''s working with. They got into a big fight. Something
+    about not having all the ingredients for the potion yet. The Warlock was very
+    angry and told everyone to get out of the school, or they would be turned into
+    vapour. I don''t want to be turned into vapour.", she says.
+
+
+    What do you do?
+
+    1. Leave the girl in the cloak room
+
+    2. Help the girl escape'
+  nextStates:
+  - {fileID: 11400000, guid: 91017f2800c1e9d4390993037194882a, type: 2}
+  - {fileID: 11400000, guid: 06d644dfda277e2499625614563225c0, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: Classroom
+  m_EditorClassIdentifier: 
+  storyText: "You slowly open the door to your classroom. You feel the stones in your
+    pocket get hot, and at the same time you feel powerful.\n\nYour teacher, Ms. Dixon,
+    is there. She looks like she'd been in a fight. She turns to look at you and her
+    face gets softer. In her kind voice, she says \"Oh Hi Charles! I hope you're ready
+    for an exciting day.\" She continues, \"I sent the rest of the class home for
+    the day. I think you and I need to complete the work on our potion\". \n\n\"Now
+    tell me, did you bring the last ingredient?\", she asks, her voice trembling a
+    bit. \n\nYou did remember to bring the feathers of golden eaglete, they're in
+    your pocket.\n\nWhat do you do?\n1. Give Ms. Dixon the feathers\n2. Give Ms. Dixon
+    some lint from your pocket.\n3. Leave the classroom"
+  nextStates:
+  - {fileID: 11400000, guid: 661a91af9462cae479e4f71538b4e500, type: 2}
+  - {fileID: 11400000, guid: a061071ff54f97a43802f6634cd06886, type: 2}
+  - {fileID: 11400000, guid: b140fb63106a772438d4b168b896717d, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: Cloaked
+  m_EditorClassIdentifier: 
+  storyText: "You quickly duck to one side, pull your cloak over you and utter \"invisy,
+    hidemy, closhic\". \n\nThe scared students run right past you as if they can't
+    see you. You thank your Dad for the cloak and your Mom for making you memorize
+    that spell.\n\nThe students have all run out now.\n\n1. Continue"
+  nextStates:
+  - {fileID: 11400000, guid: aafa6b3d28c3406488131256fff77641, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: EastHall
+  m_EditorClassIdentifier: 
+  storyText: "You start to walk down the East Hallway of your school. The hallway
+    is empty and the rooms you pass by are quiet. Most of the rooms doors are open,
+    probably left open after the students ran out. \n\nWhat scared that group of students
+    so badly that they all ran out? And where is everyone else? \n\nAs you continue
+    down the hall, you feel a tingling in you cloak pocket. The stones of strength
+    your mother gave you are vibrating. You pull them out and look at them. They glowing!\n\nIn
+    front of you is the closed door to your classroom. To the left is the boys cloak
+    room, to the right is the girls cloak room. You hear whimpering coming from the
+    girls room.\n\nWhat do you do?\n1. Open the door to your classroom\n2. Go into
+    the boys cloak room\n3. Go into the girls cloak room"
+  nextStates:
+  - {fileID: 11400000, guid: 3b3fae09f131d444e8a24839d697bd7c, type: 2}
+  - {fileID: 11400000, guid: 4e092dc59b6d23c4694647964738ae67, type: 2}
+  - {fileID: 11400000, guid: cd9ba0c59f4714d4fb0824c1d3f90d8c, type: 2}

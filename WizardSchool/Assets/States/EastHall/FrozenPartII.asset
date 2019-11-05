@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: FrozenPartII
+  m_EditorClassIdentifier: 
+  storyText: "You stand there stunned. The evil man grows impatient. Finally he casts
+    a freezing spell on you. You are frozen, you can't move. \n\nThe man searches
+    your pockets and finds the feathers. Then he tips you over, rolls you out of the
+    room and shuts the door.\n\nThe freezing will wear off...eventually.\n\nPress
+    1. to Start Again"
+  nextStates:
+  - {fileID: 11400000, guid: cdf7ee1b20c9eba408274297e614eb84, type: 2}

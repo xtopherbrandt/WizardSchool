@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: PocketLint
+  m_EditorClassIdentifier: 
+  storyText: "\"Oh, perfect Charles!\", says Ms. Dixon. \"Now let's try it\". She
+    takes the lint, greedily and adds it to the flask of potion on the table. \n\nNothing
+    happens.\n\nShe looks at you, sternly. \"That was feather from a golden eaglete,
+    right?\", she asks in a less than pleasant voice.  \"It should have reacted. It
+    should have changed to a golden vapour. What is going on?\", she continues, \"This
+    isn't good, Charles. Our sponsor for this work will be very upset. He is coming
+    here today to see our progress. This isn't good.\"  She sounds very scared now.\n\nSuddenly,
+    seemingly through a wall, walks a man into the room. He is quite evil looking.
+    He looks at the potion, looks at you and then at Ms. Dixon. \"Why havn't you added
+    the feather yet?\", he asks gruffly. \n\n\"Give me the feathers\", he demands.
+    \n\nWhat do you do?\n1. Give the man the feathers\n2. Stand, there stunned"
+  nextStates:
+  - {fileID: 11400000, guid: 5bcd3d9a40ad4c34eab0fc4f3a0875bb, type: 2}
+  - {fileID: 11400000, guid: 49bf66264d0454d459a2435a9b48acb7, type: 2}

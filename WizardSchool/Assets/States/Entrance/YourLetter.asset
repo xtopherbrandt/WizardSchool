@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: YourLetter
+  m_EditorClassIdentifier: 
+  storyText: "To: Master Charles Lanterman\nAddress: Collwerth School of Magic Arts\n\nDear
+    Charles,\n\nPlease be informed that you have been selected for the Western Magic
+    School's award of merit for your work in potion refinement.  The award ceremony
+    is Tuesday evening. You will be picked up by winged horse on Tuesday at 2:30pm
+    sharp at the entrance to Collwerth. \n\nSincerley,\nErica Franternac\nWMS President
+    \n\n1. Continue"
+  nextStates:
+  - {fileID: 11400000, guid: aafa6b3d28c3406488131256fff77641, type: 2}

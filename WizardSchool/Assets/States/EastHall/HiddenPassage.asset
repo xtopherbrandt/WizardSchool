@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: HiddenPassage
+  m_EditorClassIdentifier: 
+  storyText: "You wait a couple of minutes then try to open the door that the man
+    went through. It takes you a minute, but you find it. The door opens into a dark
+    passage.\n\nYou cautiously enter. The stones in your pocket are getting warm again
+    and you feel the strength flowing through your body.\n\nYou quietly walk down
+    the passage. Ahead of you is a doorway which is kind of like a oneway glass. You
+    can see through it but it doesn't look like the people on the other side can see
+    you.\n\nYou watch as the evil man and Ms. Dixon get into an arguement. They eventually
+    leave the room together. On the table in the room is a flask of greenish liquid,
+    the potion you and Ms. Dixon created. \n\nWhat do you do?\n1. Go into the classroom
+    to get the potion\n2. Run back down the passage way "
+  nextStates:
+  - {fileID: 11400000, guid: 665ca5df6ea1c7641b0e7e72cdfe47c0, type: 2}
+  - {fileID: 11400000, guid: 27c49f9ba1447ac4fa575f42daa827c3, type: 2}

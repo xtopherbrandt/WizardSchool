@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: GoldenVapourII
+  m_EditorClassIdentifier: 
+  storyText: "\"Thank you\", says the man. \"Now let's finish this\". He takes the
+    feathers, greedily and adds it to the flask of potion on the table. \n\nThe potion
+    bubbles and bubbles and eventually turns into a golden vapour. It's beautiful.
+    \n\nMs. Dixon looks relieved.\n\n\"That is a thing of beauty. This potion will
+    make me the most powerful warlock in the kingdom\", his voice rises.  \"And, I
+    couldn't have done it without you two. I do thank you, but I will be leaving now.
+    So long.\"\n\nThe Warlock leaves the building as a raven through the open window.
+    The potion flask tucked tightly in his talons.\n\nYou and Ms. Dixon are relieved.
+    But all your work was just stolen from you. Maybe next time you'll be more careful
+    with your partners. \n\nPress 1. to Play Again"
+  nextStates:
+  - {fileID: 11400000, guid: cdf7ee1b20c9eba408274297e614eb84, type: 2}

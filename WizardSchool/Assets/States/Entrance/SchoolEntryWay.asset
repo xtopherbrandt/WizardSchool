@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: SchoolEntryWay
+  m_EditorClassIdentifier: 
+  storyText: "As you go through the front door of the school you realize that it's
+    awefully quiet for a school day. In fact, there isn't anyone around. Weird.\n\nEven
+    more wierd is the group of students running down the hall toward you. But they
+    aren't running to you, they're running from something. And fast. What do you do?\n\n1.
+    Turn and run with them \n2. Jump behind the reception desk\n3. Hide"
+  nextStates:
+  - {fileID: 11400000, guid: d46043be5113f6e428f2ab2414fa5bfa, type: 2}
+  - {fileID: 11400000, guid: c7d2e065d0f28f941879146ff85f68e3, type: 2}
+  - {fileID: 11400000, guid: e6a7a61d828a52b4e92e3ad76dc95b1f, type: 2}

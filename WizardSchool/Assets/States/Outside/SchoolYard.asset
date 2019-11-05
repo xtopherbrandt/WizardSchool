@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: SchoolYard
+  m_EditorClassIdentifier: 
+  storyText: 'You run to the school yard. However a large owl picks you up and takes
+    you back to the school entrance.
+
+
+    Do you want to:
+
+    1. Try to run back to the shool yard
+
+    2. Open the door'
+  nextStates:
+  - {fileID: 11400000, guid: 39c235412fcccc64bb02bd3a9c7dd30c, type: 2}
+  - {fileID: 11400000, guid: 08364555be233b0488db4af75e25e871, type: 2}

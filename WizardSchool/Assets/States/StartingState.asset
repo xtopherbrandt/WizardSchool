@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d95bf2cf82396b4985fd3e6e3bc5ad0, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'The bell rings. It''s a beautiful day, but the school yard is a bit
+    empty. It doesn''t matter, you''re too excited about the potion you and Ms. Dixon
+    created.  You wonder what you should call it and if you can sell it. Maybe it
+    will make you famous! You can''t wait to talk to Ms. Dixon about it.
+
+
+    In front of you is the door to the school. What do you do?
+
+
+    1. Open the door
+
+    2. Go play in the school yard'
+  nextStates:
+  - {fileID: 11400000, guid: 08364555be233b0488db4af75e25e871, type: 2}
+  - {fileID: 11400000, guid: d46043be5113f6e428f2ab2414fa5bfa, type: 2}
